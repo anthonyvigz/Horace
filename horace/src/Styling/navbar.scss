@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  background: black;
+  width: 100%;
+  justify-content: left;
+  border-bottom: solid rgba(255, 255, 255, 0.116) 2px;
+  padding: 15px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+
+  .logo {
+    font-family: "Raleway", sans-serif;
+    margin-right: 25px;
+    margin-left: 50px;
+    color: gold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  .links {
+    display: flex;
+    margin-left: 440px;
+    width: 1200px;
+    align-items: center;
+    padding: 12px;
+
+    a {
+      font-family: "Raleway", sans-serif;
+      margin-right: 25px;
+      margin-left: 50px;
+      color: #fe5a1d;
+      font-size: 0.8em;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+
+    i {
+      color: rgb(255, 217, 0);
+      font-size: 1.9em;
+      margin-left: 50px;
+    }
+  }
+}
