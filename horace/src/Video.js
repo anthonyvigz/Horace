@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.scss";
 import YouTube from "react-youtube";
 import "./Styling/video.scss";
 
 function Video() {
+
+  const [loading, setLoading] = useState(true);
   const onReady = (event) => {
     // access to player in all event handlers via event.target
-    // event.target.mute();
+    event.target.mute();
+    event.target.playVideo();
+    setTimeout(() => {
+      setLoading(false)
+    }, 1000)
   };
 
   const onEnd = (event) => {
@@ -16,7 +22,7 @@ function Video() {
   const videoOptions = {
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
+      autoPlay: 1,
       controls: 0,
       rel: 0,
       showinfo: 0,
@@ -32,7 +38,10 @@ function Video() {
           className="video-iframe"
           onReady={onReady}
           onEnd={onEnd}
+          autoPlay
         />
+      <div className={loading ? "blackOverlay" : "blackOverlay hide"} >
+      </div>
       </div>
     </div>
   );
