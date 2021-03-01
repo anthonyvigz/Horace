@@ -1,0 +1,32 @@
+.mainHorace {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 0%, #454545 50%);
+    
+    width: 100%;
+    height: 100%;
+
+    .horaceBio {
+        display: flex;
+        margin: 150px auto;
+        width: 100%;
+        height: 500px;
+
+        img {
+            margin-left: 50px;
+            min-width: 600px;
+            -webkit-box-shadow: 0px 24px 42px 5px rgba(255,255,255,0.46); 
+            box-shadow: 0px 24px 42px 5px rgba(255, 255, 255, 0.124);
+        }
+
+        .textBio {
+            padding: 25px;
+            line-height: 25px;
+            width: 500px;
+            height: 500px;
+            h4 {
+                color: white;
+                
+            }
+        }
+    }
+}
