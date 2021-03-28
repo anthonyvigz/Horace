@@ -4,6 +4,7 @@ import "./App.scss";
 import Video from "./Video";
 import Navbar from "./Components/Navbar";
 import Horace from "./Components/Horace";
+import Documents from "./Components/Documents";
 import ModalVideo from 'react-modal-video'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         onClose={() => setOpen(false)} 
       />
       <Route component={Horace} exact path="/horace" />
+      <Route component={Documents} exact path="/documents" />
       <Route component={Video} exact path="/" />
       <div className="linkToVideo">
       <img src="https://i.imgur.com/APUm4Dw.png" alt="willieVid" />+

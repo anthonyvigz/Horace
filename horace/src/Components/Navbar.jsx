@@ -15,7 +15,7 @@ export default function Navbar() {
       {width > 950 ? (
             <nav className="links">
         <NavLink to="/horace">HORACE</NavLink>
-        <NavLink to="#docs">DOCUMENTS & CONTENT</NavLink>
+        <NavLink to="/documents">DOCUMENTS & CONTENT</NavLink>
         <NavLink to="#legends">LEGENDS</NavLink>
         </ nav>
       ) : null}
