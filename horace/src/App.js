@@ -28,7 +28,7 @@ function App() {
       <Route component={Video} exact path="/" />
       <div className="linkToVideo">
       <img src="https://i.imgur.com/APUm4Dw.png" alt="willieVid" />+
-      <a onClick={() => setOpen(true)} class="play-btn"></a>
+      <a alt="none" href="#" onClick={() => setOpen(true)} class="play-btn"></a>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import "../Styling/navbar.scss";
 import useWindowDimensions from "./WindowDimensions";
 
 export default function Navbar() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <div className="nav">
