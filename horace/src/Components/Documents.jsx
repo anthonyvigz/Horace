@@ -10,10 +10,6 @@ export default function Documents() {
     Aos.init({ duration: 2000 });
   }, []);
 
-  console.log(docCards.map(card => {
-      console.log('hey', card)
-  }))
-
   return (
   <div className="mainDocuments">
       {docCards.map(card => {

@@ -1,6 +1,6 @@
 export const docCards = [
     {
-        title: "Five Seasons by Roger Angell",
+        title: "Five Seasons",
         imgUrl: "https://i.imgur.com/VTKhoLZ.jpg",
         link: "https://www.amazon.com/Five-Seasons-Companion-Roger-Angell/product-reviews/0803259506?pageNumber=3"
     },
@@ -40,7 +40,7 @@ export const docCards = [
         link: "https://sabr.org/bioproj/topic/san-francisco-giants-team-ownership-history/"
     },
     {
-        title: "Forty Years a Giant by Steven Treder",
+        title: "Forty Years a Giant",
         imgUrl: "https://i.imgur.com/OXfXfRo.jpg",
         link: "https://www.nebraskapress.unl.edu/nebraska/9781496224194/?fbclid=IwAR33KsM5hg_Y7n97HJaVmb5-N3XmsZKEd_DYX8nNls7sMGa9c6r7FuKz1Xk"
     },

@@ -1,19 +1,41 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { motion } from "framer-motion";
 import "../Styling/documents.scss"
-import Aos from "aos";
-import "aos/dist/aos.css";
 
-export default function Documents(props) {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
+export default function DocCard(props) {
+  // variants for word animation
+  const item = {
+    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, x: -55 },
+  };
   return (
-  <div className="docCard">
-      <h1>{props.title}</h1>
+    <motion.div
+      variants={item}
+      initial="hidden"
+      animate="visible"
+      exit="hidden"
+      className="imgBlock"
+    >
+            <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={props.link}
+          >
       <div className="wrap">
-         <img src={props.img} alt={props.title} />
+        <img width="300" src={props.img} alt={props.title} />
       </div>
-  </div>
-  )
+      </a>
+      <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={props.link}
+          >
+      <div className="overlay">
+        <div className="pieceInfo">
+          <h4 className="workTitle">{props.title}</h4>
+        </div>
+      </div>
+      </a>
+    </motion.div>
+  );
 }

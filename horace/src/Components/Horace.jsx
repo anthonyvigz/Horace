@@ -10,19 +10,16 @@ export default function Horace() {
 
   return <div className="mainHorace">
     <div className="horaceBio">
-      <img       data-aos="fade-in"
-      data-aos-duration="700"
-      data-aos-easing="ease-in-out" src="https://i.imgur.com/5o4wMMG.jpg" width="600" alt="horaceAndWillie" />
       <div className="textBio">
         <h4       data-aos="fade-in"
-      data-aos-duration="1000"
+      data-aos-duration="2000"
       data-aos-easing="ease-in-out">
         Horace Stoneham is the single constant executive in the
         continuum of the expansion 
         of baseball's demographic and geographic diversity.
         </h4>
         <h4       data-aos="fade-in"
-      data-aos-duration="1550"
+      data-aos-duration="3000"
       data-aos-easing="ease-in-out">
         He is a baseball man,  schooled by the immortal hall of famers 
         of baseball...to bring baseball culturally forward, creating 
@@ -31,7 +28,7 @@ export default function Horace() {
          other beaseball executive.
         </h4>
         <h4       data-aos="fade-in"
-      data-aos-duration="1900"
+      data-aos-duration="5000"
       data-aos-easing="ease-in-out">
         Horace's relevance not only for baseball, but for his 
         economic impact along with being a driving force at the
@@ -42,7 +39,7 @@ export default function Horace() {
            vision today in Baseball. 
         </h4>
         <h4       data-aos="fade-in"
-      data-aos-duration="2500"
+      data-aos-duration="3000"
       data-aos-easing="ease-in-out">
         Horace Stoneham, a baseball man, ahead of his time.
         </h4>
