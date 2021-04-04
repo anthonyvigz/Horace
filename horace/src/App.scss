@@ -26,6 +26,33 @@
 }
 }
 
+.socialMediaIcons {
+  bottom: 25px;
+  left: 25px;
+  position: fixed;
+
+  i {
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 3em;
+    transition: 0.5s;
+    margin-left: 15px;
+  }
+
+  i:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+}
+
+.copyright {
+  bottom: 5px;
+  right: 25px;
+  font-size: 0.8em;
+  position: fixed;
+  color: rgba(255, 255, 255, 0.472);
+}
+
 .play-btn {
   outline: none;
   border: none;
@@ -115,3 +142,4 @@
   
     }
   }
+

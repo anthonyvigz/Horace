@@ -9,18 +9,20 @@ export default function Navbar() {
   return (
     <div className="nav">
       <NavLink to="/" className="logo">
-        <img src="https://i.imgur.com/tJv2gbj.png" width="200px" alt="logo" />
+        <img src="https://i.imgur.com/tJv2gbj.png" width="135px" alt="logo" />
       </NavLink>
       <nav className="links">
       {width > 950 ? (
             <nav className="links">
         <NavLink to="/horace">HORACE</NavLink>
         <NavLink to="/documents">DOCUMENTS & LEGENDS</NavLink>
+        <NavLink to="/testimonials">TESTIMONIALS</NavLink>
         </ nav>
       ) : (
         <nav className="linksSmall">
         <NavLink to="/horace">HORACE</NavLink>
         <NavLink to="/documents">DOCUMENTS & LEGENDS</NavLink>
+        <NavLink to="/testimonials">TESTIMONIALS</NavLink>
         </ nav>
       )}
       </nav>

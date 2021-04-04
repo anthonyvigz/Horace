@@ -1,0 +1,37 @@
+.testimonials {
+    margin-top: 82px;
+    background-color: #000000;
+    background-image: url("https://i.imgur.com/y5x5iW1.png");
+    width: 100%;
+    background-size: cover;
+
+    .textBio {
+        padding:  15px 25px;
+        line-height: 25px;
+        width: 550px;
+        background: rgba(24, 19, 17, 0.513);
+        margin-left: 35px;
+        margin-top: 65px;
+        border-radius: 5px;
+
+        h2 {
+            color: rgb(255, 255, 255);
+
+            span {
+                color: rgb(255, 139, 93);
+                font-size: 0.8em;
+            }
+            
+        }
+        h3 {
+            color: rgb(255, 255, 255);
+            padding: 0;
+            
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            
+        }
+    }
+}
