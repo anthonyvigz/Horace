@@ -35,7 +35,7 @@ function Video() {
     <div className="video-background">
       <div className="video-foreground">
         <YouTube
-          videoId="ej2oQfsxJ_o"
+          videoId="4DjjJS8pAjA"
           opts={videoOptions}
           className="video-iframe"
           onReady={onReady}
