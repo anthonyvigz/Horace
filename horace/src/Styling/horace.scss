@@ -4,14 +4,45 @@
     width: 100%;
     background-size: cover;
     margin-top: 82px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .horaceStory {
+        color: rgb(214, 214, 214);
+        background: rgba(22, 13, 0, 0.815);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 250px;
+        border-radius: 5px;
+        height: 125px;
+        text-decoration: none;
+        font-family: "Raleway", sans-serif;
+        border: solid white 2px;
+        font-size: 1.8em;
+        transition: 0.5s;
+        margin-right: 50px;
+        margin-bottom: -250px;
+
+        i {
+            padding: 10px;
+            font-size: 2em;
+            color: white;
+        }
+    }
+    .horaceStory:hover {
+        background: rgba(22, 13, 0, 0.541);
+        transition: 0.5s;
+    }
 
     .horaceBio {
         display: flex;
-        margin: 150px auto;
         height: 500px;
         width: 500px;
-        margin-right: 50px;
-        background: rgba(253, 229, 196, 0.589);
+        margin-right: 100px;
+        background: rgba(253, 229, 196, 0.411);
         border-radius: 5px;
 
 
@@ -29,5 +60,18 @@
 
     h4 {
         font-size: 0.9em;
+
+        #horacename {
+            font-size: 1.2em;
+            color: rgb(0, 0, 0);
+        }
+
+        span {
+            font-size: 1.2em;
+
+             a {
+                 text-decoration: none;
+             }
+        }
     }
 }

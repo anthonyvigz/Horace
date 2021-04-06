@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../Styling/horace.scss"
 import Aos from "aos";
 import "aos/dist/aos.css";
+import pdf from './HoraceStonehamNarrative.pdf'
 
 export default function Horace() {
   useEffect(() => {
@@ -9,39 +10,40 @@ export default function Horace() {
   }, []);
 
   return <div className="mainHorace">
+    <a href={pdf} rel="noopener noreferrer" target = "_blank" className="horaceStory">
+      Here is his story. <i class="fas fa-file-alt"></i>
+    </a>
     <div className="horaceBio">
       <div className="textBio">
         <h4       data-aos="fade-in"
       data-aos-duration="2000"
       data-aos-easing="ease-in-out">
-        Horace Stoneham is the single constant executive in the
-        continuum of the expansion 
-        of baseball's demographic and geographic diversity.
+        <span id="horacename">Horace Stoneham</span> is my grandfather. His story and contribution to the 
+        game of baseball has been lost to history. You may not know his name, 
+        but you live and benefit from his impact and legacy every day. Of the 
+        thousands of people who have contributed to the development of baseball, 
+        Horace Stoneham is the catalyzing owner in the continuum of baseball's 
+        demographic and geographic expansion.
         </h4>
         <h4       data-aos="fade-in"
       data-aos-duration="3000"
       data-aos-easing="ease-in-out">
-        He is a baseball man,  schooled by the immortal hall of famers 
-        of baseball...to bring baseball culturally forward, creating 
-        more legendary moments, more hall of fame players, that define
-         our national pastime today as it did 100 years ago than any 
-         other beaseball executive.
+        He is a baseball man, schooled by the immortal Hall of Famers, 
+        yet he brought baseball culturally forward, creating more legendary
+        moments, more Hall of Fame players, more places to experience baseball 
+        than any other baseball executive.
         </h4>
         <h4       data-aos="fade-in"
       data-aos-duration="5000"
       data-aos-easing="ease-in-out">
-        Horace's relevance not only for baseball, but for his 
-        economic impact along with being a driving force at the
-         forefront of integrating baseball across cultures, from 
-         the negro leagues, Latin America and Japan, he  belongs in 
-         Cooperstown, as the Giant among leagends that have emanated
-          from his vision for the future of baseball. We live that
-           vision today in Baseball. 
+        Please help me get Horace In the Hall 
+        for the Class of 2022. I would love to hear from you. You can email me at: <span><a target="_blank"
+            rel="noopener noreferrer" href="mailto: info@horaceinthehall.com">info@horaceinthehall.com <i class="fas fa-envelope"></i></a></span>
         </h4>
         <h4       data-aos="fade-in"
       data-aos-duration="3000"
       data-aos-easing="ease-in-out">
-        Horace Stoneham, a baseball man, ahead of his time.
+        I am most grateful, <span>Jaime Rupert</span>
         </h4>
     </div>
   </div>
