@@ -35,6 +35,8 @@ function App() {
       <div className="socialMediaIcons">
         <i class="fab fa-instagram"></i>
         <i class="fab fa-facebook"></i>
+        <a target="_blank"
+            rel="noopener noreferrer" href="mailto: info@horaceinthehall.com"><i class="fas fa-envelope"></i></a>
       </div>
       <h4 className="copyright">
         Horace in the Hall © 2021

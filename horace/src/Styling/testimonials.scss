@@ -4,14 +4,31 @@
     background-image: url("https://i.imgur.com/y5x5iW1.png");
     width: 100%;
     background-size: cover;
+    display: flex;
+    height: 100%;
+
+    i {
+        font-size: 8em;
+        color: white;
+        margin-left: 35px;
+        margin-top: 195px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    i:hover {
+        color: rgba(255, 255, 255, 0.746);
+        transition: 0.5s;
+    }
 
     .textBio {
         padding:  15px 25px;
         line-height: 25px;
-        width: 550px;
+        min-height: 400px;
+        width: 950px;
+        height: 100%;
         background: rgba(24, 19, 17, 0.513);
         margin-left: 35px;
-        margin-top: 65px;
+        margin-top: 25px;
         border-radius: 5px;
 
         h2 {
@@ -26,6 +43,14 @@
         h3 {
             color: rgb(255, 255, 255);
             padding: 0;
+            
+        }
+
+        h4 {
+            color: rgba(255, 255, 255, 0.692);
+            padding: 0;
+            font-size: 0.8em;
+            line-height: 18px;
             
         }
 
