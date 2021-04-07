@@ -4,12 +4,20 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 export default function Testimonials() {
-  const [next, setNext] = useState(0)
+  const [next, setNext] = useState(0);
+  const [bg, setBg] = useState("url('https://i.imgur.com/y5x5iW1.png')")
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
 
   const nextTestimonial = (event) => {
+    if (next === 0) {
+      setBg("url('https://i.imgur.com/p5wQWdE.png')")
+    } else if (next === 1) {
+      setBg("url('https://i.imgur.com/ldsVjFY.png')")
+    } else {
+      setBg("url('https://i.imgur.com/y5x5iW1.png')")
+    }
 
     if (next < 2) {
       setNext(next + 1)
@@ -18,7 +26,7 @@ export default function Testimonials() {
     }
   }
 
-  return <div className="testimonials">
+  return <div style={{ backgroundImage: bg }} className="testimonials">
       {next === 0 &&
             <div data-aos="fade-in"
             data-aos-duration="2000"

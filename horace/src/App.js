@@ -21,7 +21,7 @@ if (width > 650) {
       <ModalVideo 
         channel='vimeo' 
         isOpen={isOpen} 
-        videoId="4DjjJS8pAjA" 
+        videoId="517909039" 
         autoplay={1}
         controls={0}
         showinfo={0}
@@ -52,8 +52,14 @@ if (width > 650) {
     <div className="mobileMain">
        <img src="https://i.imgur.com/tJv2gbj.png" width="135px" alt="logo" />
        <div className="mobileIcons">
+       <a target="_blank"
+            rel="noopener noreferrer" href="https://www.instagram.com/horaceinthehall">
         <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank"
+            rel="noopener noreferrer" href="mailto: info@horaceinthehall.com">
         <i class="fab fa-facebook"></i>
+        </a>
         <a target="_blank"
             rel="noopener noreferrer" href="mailto: info@horaceinthehall.com"><i class="fas fa-envelope"></i></a>
       </div>
