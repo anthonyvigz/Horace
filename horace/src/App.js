@@ -37,8 +37,14 @@ if (width > 650) {
       <button onClick={() => setOpen(true)} class="play-btn"></button>
       </div>
       <div className="socialMediaIcons">
+        <a target="_blank"
+            rel="noopener noreferrer" href="https://www.instagram.com/horaceinthehall">
         <i class="fab fa-instagram"></i>
-        <i class="fab fa-facebook"></i>
+        </a>
+        <a target="_blank"
+            rel="noopener noreferrer" href="https://twitter.com/horacestoneham">
+        <i class="fab fa-twitter"></i>
+        </a>
         <a target="_blank"
             rel="noopener noreferrer" href="mailto: info@horaceinthehall.com"><i class="fas fa-envelope"></i></a>
       </div>
@@ -57,8 +63,8 @@ if (width > 650) {
         <i class="fab fa-instagram"></i>
         </a>
         <a target="_blank"
-            rel="noopener noreferrer" href="mailto: info@horaceinthehall.com">
-        <i class="fab fa-facebook"></i>
+            rel="noopener noreferrer" href="https://twitter.com/horacestoneham">
+        <i class="fab fa-twitter"></i>
         </a>
         <a target="_blank"
             rel="noopener noreferrer" href="mailto: info@horaceinthehall.com"><i class="fas fa-envelope"></i></a>
